@@ -1,0 +1,7 @@
+name: GitHub Actions custom runners demo
+on: workflow_dispatch
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: custom-ubuntu-16
+    steps:
+      - run: sleep 500s
